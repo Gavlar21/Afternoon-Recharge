@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "Station",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "OpenStationIntent",
+          "samples": [
+            "open {Station}",
+            "play {Station}",
+            "start {Station}",
+            "open {Station} radio",
+            "play {Station} radio"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "afternoon recharge"
+    }
+  }
+}
